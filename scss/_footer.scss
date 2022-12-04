@@ -1,0 +1,24 @@
+.contacs {
+  .header-2 {
+    text-align: center;
+  }
+
+  .contacts-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6.5rem;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+    img {
+      width: 50px;
+    }
+  }
+}

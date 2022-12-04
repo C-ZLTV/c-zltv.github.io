@@ -1,0 +1,61 @@
+@use "abstracts" as *;
+
+.snv,
+.skills,
+.exp,
+.contacs {
+  background-color: #323232ff;
+  color: $clr-secondary;
+  padding: 2rem 0;
+
+  .container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+  }
+}
+
+.header-2 {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  margin-bottom: 1rem;
+  color: #f7f7f7;
+}
+
+.skills {
+  .soft-text,
+  .hard-text {
+    padding-bottom: 2rem;
+  }
+
+  .soft-wrapper {
+    margin-bottom: 3rem;
+  }
+  .soft-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    > * {
+      flex: 1 1 47%;
+    }
+  }
+}
+
+.exp {
+  h3 {
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    color: $clr-secondary-accent;
+  }
+
+  .exp1-wrapper {
+    padding: 3rem 0;
+    border-top: 2px solid $clr-accent-lilac;
+    border-bottom: 1px solid $clr-accent-yellow;
+  }
+
+  .exp2-wrapper {
+    padding: 3rem 0;
+    border-top: 1px solid $clr-accent-green;
+    border-bottom: 2px solid $clr-accent-pink;
+  }
+}

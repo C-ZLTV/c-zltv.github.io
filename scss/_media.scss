@@ -1,0 +1,124 @@
+@use "abstracts" as *;
+@media (max-width: 709px) {
+  .primary-navigation {
+    background-color: hsl(0 0% 10% / 0.9);
+    backdrop-filter: blur(0.1rem);
+    border-radius: 5px;
+    padding: 10rem 0;
+
+    z-index: 1000;
+    position: fixed;
+    inset: 0 0 0 50%;
+
+    transform: translateX(100%);
+    transition: transform 0.3s ease-out;
+  }
+
+  .primary-navigation[data-visible="true"] {
+    transform: translateX(0%);
+  }
+
+  .nav-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .mobile-nav-toggle {
+    z-index: 9999;
+    position: fixed;
+    top: 0.75rem;
+    right: 1.5rem;
+
+    width: 2rem;
+    aspect-ratio: 1;
+    border: none;
+
+    background: url(../img/icon-hamburger.svg);
+    background-repeat: no-repeat;
+  }
+
+  .mobile-nav-toggle[aria-expanded="true"] {
+    background: url(../img/icon-close.svg);
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 710px) {
+  .primary-header-wrapper {
+    .header-flex {
+      align-items: center;
+    }
+    .nav-flex {
+      display: flex;
+      gap: clamp(2rem, 4.5vw, 4.5rem);
+    }
+
+    .mobile-nav-toggle {
+      display: none;
+    }
+  }
+
+  .hero {
+    &-content {
+      max-width: 75%;
+    }
+  }
+  .snv,
+  .skills,
+  .exp,
+  .contacs {
+    padding: 1.5rem 0 10rem 0;
+  }
+
+  .story,
+  .vision {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .vision {
+    flex-direction: row-reverse;
+  }
+
+  .story > * {
+    flex-basis: 42%;
+  }
+
+  .vision > * {
+    flex-basis: 42%;
+  }
+
+  .soft-wrapper,
+  .hard-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .soft-text,
+  .hard-text {
+    flex-basis: 25%;
+  }
+
+  .soft-layout,
+  .hard-layout {
+    flex-basis: 70%;
+  }
+
+  .contacts--links {
+    display: flex;
+    flex: wrap;
+    gap: 1rem;
+
+    > * {
+      flex-basis: 100%;
+    }
+
+    .contact {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 2rem;
+    }
+  }
+}

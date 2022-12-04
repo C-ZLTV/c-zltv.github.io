@@ -1,0 +1,153 @@
+@use "abstracts" as *;
+
+.hero--btn {
+  a {
+    text-decoration: none;
+    color: #f7f7f7;
+  }
+  background-color: $clr-primary;
+  padding: 0.4em 2em;
+  border-radius: 0.75rem;
+  text-align: center;
+  border: none;
+  font-size: clamp(1rem, 1vw, 1.5rem);
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.hero--btn:hover {
+  background-color: darken($clr-primary, 10%);
+}
+
+.skills--btn {
+  @include btn;
+  padding: 1.5em 0;
+  font-weight: 600;
+  border-radius: 4px;
+  color: $clr-primary;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.skills--btn:hover {
+  transform: scale(1.01);
+}
+
+.skills--btn--1 {
+  border: 5px solid #e2c1f3;
+  transition: background-color 0.3s;
+}
+
+.skills--btn--1:hover {
+  background-color: $clr-accent-lilac;
+}
+
+.skills--btn--2 {
+  border: 5px solid #f5e45f;
+  transition: background-color 0.3s;
+}
+
+.skills--btn--2:hover {
+  background-color: $clr-accent-yellow;
+}
+
+.skills--btn--3 {
+  border: 5px solid #00c69e;
+  transition: background-color 0.3s;
+}
+
+.skills--btn--3:hover {
+  background-color: $clr-accent-green;
+}
+
+.skills--btn--4 {
+  border: 5px solid #07bdff;
+  transition: background-color 0.3s;
+}
+
+.skills--btn--4:hover {
+  background-color: $clr-accent-blu;
+}
+
+.skills--btn--5 {
+  border: 5px solid #fe51b0;
+  transition: background-color 0.3s;
+}
+
+.skills--btn--5:hover {
+  background-color: $clr-accent-pink;
+}
+
+.skills--btn--6 {
+  border: 5px solid #fd7a39;
+  transition: background-color 0.3s;
+}
+
+.skills--btn--6:hover {
+  background-color: $clr-accent-orange;
+}
+
+.skills--btn--7 {
+  border: 5px solid #e2c1f3;
+  transition: background-color 0.3s;
+}
+
+.skills--btn--7:hover {
+  background-color: $clr-accent-lilac;
+}
+
+.skills--btn--8 {
+  border: 5px solid #00c69e;
+  transition: background-color 0.3s;
+}
+
+.skills--btn--8:hover {
+  background-color: $clr-accent-green;
+}
+
+.btn--cotacts {
+  a {
+    text-decoration: none;
+    color: $clr-primary;
+  }
+  @include btn;
+  padding: 0.5em;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s, opacity 0.2s, color 0.2s;
+}
+
+.btn--cotacts:hover {
+  background-color: $clr-primary;
+  padding: 0.4375em;
+  opacity: 0.8;
+}
+
+.btn--cotacts-1:hover {
+  border: 1px solid $clr-accent-orange;
+  a {
+    color: $clr-accent-orange;
+  }
+}
+
+.btn--cotacts-2:hover {
+  border: 1px solid $clr-accent-blu;
+  a {
+    color: $clr-accent-blu;
+  }
+}
+
+.btn--cotacts-3:hover {
+  border: 1px solid $clr-accent-lilac;
+  a {
+    color: $clr-accent-lilac;
+  }
+}
+
+.btn--cotacts-4:hover {
+  border: 1px solid $clr-accent-blu;
+  a {
+    color: $clr-accent-blu;
+  }
+}

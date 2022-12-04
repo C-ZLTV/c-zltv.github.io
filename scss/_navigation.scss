@@ -1,0 +1,35 @@
+@use "abstracts" as *;
+
+.primary-header-wrapper {
+  padding: 0.4rem 0;
+  background-color: darken($clr-primary, 5%);
+  width: 100%;
+  z-index: 900;
+  position: fixed;
+}
+
+.primary-header {
+  margin-inline: auto;
+  width: min(90%, 77rem);
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  color: $clr-secondary;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: $clr-secondary;
+  transition: opacity 0.2s;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
