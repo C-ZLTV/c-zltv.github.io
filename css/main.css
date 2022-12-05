@@ -295,6 +295,10 @@ ul {
   color: #f7f7f7;
 }
 
+.snv .ph-1 {
+  margin-bottom: 0.75rem;
+}
+
 .skills .soft-text,
 .skills .hard-text {
   padding-bottom: 2rem;
