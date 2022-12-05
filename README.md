@@ -28,7 +28,7 @@ Build a fully responsive personal website to showcase personal coding skills acq
 
 ## My process
 
-Started by writing the HTML for the project and using semantic tags to effinctly divide the website in section: so we have a header with a navigation bar and a hero section, three sections inside the main content and a footer for contacts.
+Started by writing the HTML for the project and using semantic tags to efficiently divide the website in sections: so we have a header with a navigation bar and a hero section, three sections inside the main content and a footer for contacts.
 
 I proceeded by diving the Sass code in different files for intelligibility reasons: so we have a file for all the main Semanctic Elements (header, nav, main, footer, buttons), other utility filies (abstracts and reset) and finally a separate @media file.
 
@@ -36,17 +36,17 @@ The first Sass code was the reset which includes crucial reset elements such as:
 
 Everyting has been centered with a max() function for the width and a margin-inline set to auto.
 
-The Navigation Bar is responsive with a regular Logo and Anchor Links template separated by space-between for Desktop and a on/off Hamburger Menu for Mobile, made interactive with JS. In the navigation file were included all the shared base styles for both the mobile and desktop version while the specific separate styles were included in two separate media queries for simplicity.
+The Navigation Bar is responsive with a regular Logo and Anchor Links template separated by space-between for Desktop and a on/off Hamburger Menu for Mobile, made interactive with JS. In the navigation file were included all the shared base styles for mobile and desktop versions while the separate mobile and desktop styles were included in two separate media queries for simplicity.
 
-All the hero section text was made made responsive with clamp() functions that provide a mimimun, ideal and maximum sizes so there was no need for @media queries. The same approach was taken for the button with with the addition of padding expressed in em unit instead of rem.
+All the hero section text was made responsive with clamp() functions that provide mimimun, ideal and maximum sizes so there was no need for @media queries. The same approach was taken for the button with the addition of padding expressed in em unit instead of rem.
 
 The first section, Vision and Story has 2 main blocks both with a paragraph and a responsive image that simply fall as follows on the mobile version but are made into row and reverse-row with flexbox for desktop.
 
-The second section, Skills has a similar structure to the first section but instead of images the main focus are the buttons made responsive and fluid with flexbox and specifically setting flex-grow to 1 and activating wrap. In addition to this, all the eight buttons have a unique hover effect that displays all the colors used in the drawings.
+The second section, Skills has a similar structure to the first one but instead of images the main focus are the buttons made responsive and fluid with flexbox and specifically setting flex-grow to 1 and activating wrap. In addition to this, all the eight buttons have a unique hover effect that displays all the colors used in the drawings.
 
-The last section, Experiences is simple, with only text and borders to divide the content. It mantaines the same look for both the mobile and the desktop version.
+The last section, Experiences is more simple, with only text and borders to divide the content. It mantaines the same look for both the mobile and the desktop version.
 
-The final part of the website, the footer includes all the contact. They are made accessible with a link integratd inside a button and an icon besides them, that esplicates what each button is for. On the mobile version the buttons simply fall in a colum as per default while on the desktopk version they are in a row thank to flexbox. The icon-button relationship is also governed by flexbox.
+The final part of the website, the footer includes all the contact links. They are made accessible with a link integrated inside a button and an icon besides them, that esplicates what each button is for. On the mobile version the buttons simply fall in a colum as per default while on the desktop version they are in a row thanks to flexbox. The icon-button relationship is also governed by flexbox.
 
 ### Built with
 
@@ -167,9 +167,9 @@ Beside the course I've taken with Start2Impact, I feel lucky to have found some 
 
 - [Kevin Powell](https://www.youtube.com/@KevinPowell) - whose [21 days Responsive layout free course](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts) I followed while working on the project. It might as well be one of the best free Resource I've come accross.
 
-- [CSS Reset by Andy Bell](https://piccalil.li/blog/a-modern-css-reset/) - creverly written in 2019 still seems to be one the first and best thing I've seen mention by experienced developers when talking about css reset.
+- [CSS Reset by Andy Bell](https://piccalil.li/blog/a-modern-css-reset/) - intelligently written in 2019 still seems to be one the first and best things I've seen mentioned by experienced developers when talking about css reset.
 
-- [SuperSimpleDev](https://www.youtube.com/@SuperSimpleDev) - whose youtube videos I watch regaring CSS and Git&Github. The Git&Github videos where probably the most in deth and complete beginner friendly explanations that I've watched and that actually made me understant important concepts.
+- [SuperSimpleDev](https://www.youtube.com/@SuperSimpleDev) - whose youtube videos I watched regaring CSS and Git&Github. The Git&Github videos where probably the most in deth and complete beginner friendly explanations that I've come across and that actually made me understant important concepts.
 
 ## Author
 
