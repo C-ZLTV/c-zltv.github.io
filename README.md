@@ -20,11 +20,11 @@ This is my first project I build for the online Frontend Developer course by [St
 
 ### The challenge
 
-Build a fully responsive personal website to showcase personal coding skills acquired during the CSS & HTML course. Most importantantly Semantic HTML, Flexbox, Responsive Design & Images, Web Typography, Sass.
+Build a fully responsive personal website to showcase personal coding skills acquired during the CSS & HTML course. Most importantly Semantic HTML, Flexbox, Responsive Design & Images, Web Typography, Sass.
 
 ### Links
 
-- URL: [Live Website URL](https://c-zltv.github.io/personal-website/)
+- URL: [Live Website URL](https://c-zltv.github.io/html-css-website/)
 
 ## My process
 
