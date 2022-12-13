@@ -1,24 +1,68 @@
-.contacs {
-  .header-2 {
-    text-align: center;
+.header-2 {
+  text-align: center;
+}
+
+.contacts-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6.5rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+
+  img {
+    width: 50px;
   }
+}
 
-  .contacts-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 6.5rem;
+.contact__el {
+  text-decoration: none;
+  color: $clr-primary;
+  @include btn;
+  padding: 0.5em;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s, opacity 0.2s, color 0.2s;
+  border: 1px solid red;
+}
+
+.contact__el:hover {
+  background-color: $clr-primary;
+  padding: 0.4375em;
+  opacity: 0.8;
+}
+
+.contact__el-1:hover {
+  border: 1px solid $clr-accent-orange;
+  a {
+    color: $clr-accent-orange;
   }
+}
 
-  .contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
+.contact__el-2:hover {
+  border: 1px solid $clr-accent-blu;
+  a {
+    color: $clr-accent-blu;
+  }
+}
 
-    img {
-      width: 50px;
-    }
+.contact__el-3:hover {
+  border: 1px solid $clr-accent-lilac;
+  a {
+    color: $clr-accent-lilac;
+  }
+}
+
+.contact__el-4:hover {
+  border: 1px solid $clr-accent-blu;
+  a {
+    color: $clr-accent-blu;
   }
 }
