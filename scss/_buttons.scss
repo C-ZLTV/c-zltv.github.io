@@ -104,3 +104,17 @@
 .skills--btn--8:hover {
   background-color: $clr-accent-green;
 }
+
+.form__btn {
+  border: 2px solid $clr-accent-green;
+  font-weight: 600;
+  color: $clr-primary;
+  text-transform: uppercase;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.form__btn:hover {
+  color: $clr-secondary;
+  background-color: darken($clr-accent-green, 10%);
+}

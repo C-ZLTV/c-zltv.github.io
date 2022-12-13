@@ -182,47 +182,85 @@
     <footer class="contacs" id="contacts">
       <div class="container">
         <div class="contacts-content">
-          <h2 class="header-2">Get to know me better</h2>
-          <nav>
-            <ul class="contacts--links">
-              <li class="contact">
-                <img src="img/gmail.png" alt="" />
-                <a
-                  class="contact__el contact__el-1"
-                  href="mailto:zlatovcristina@gmail.com"
-                  target="_blank"
-                  >Sent me an email</a
-                >
-              </li>
-              <li class="contact">
-                <img src="img/linkedin.png" alt="" />
-                <a
-                  class="contact__el contact__el-2"
-                  href="https://www.linkedin.com/in/cristina-zlatov/"
-                  target="_blank"
-                  >Check my linkedin</a
-                >
-              </li>
-              <li class="contact">
-                <img src="img/github.png" alt="" />
-                <a
-                  class="contact__el contact__el-3"
-                  href="https://github.com/C-ZLTV"
-                  target="_blank"
-                  >Find me on GitHub</a
-                >
-              </li>
-              <li class="contact">
-                <img src="img/twitter.png" alt="" />
-                <a
-                  class="contact__el contact__el-4"
-                  href="https://twitter.com/czltv"
-                  target="_blank"
-                  >Check my Tweets</a
-                >
-              </li>
-            </ul>
-          </nav>
+          <div class="contacts__links-wrapper">
+            <h2 class="header-2 header-2-contacts">Get to know me better</h2>
+            <nav>
+              <ul class="contacts__links">
+                <li class="contact">
+                  <img src="img/linkedin.png" alt="" />
+                  <a
+                    class="contact__el contact__el-2"
+                    href="https://www.linkedin.com/in/cristina-zlatov/"
+                    rel="noopener"
+                    target="_blank"
+                    >Check my linkedin</a
+                  >
+                </li>
+                <li class="contact">
+                  <img src="img/github.png" alt="" />
+                  <a
+                    class="contact__el contact__el-3"
+                    href="https://github.com/C-ZLTV"
+                    rel="noopener"
+                    target="_blank"
+                    >Find me on GitHub</a
+                  >
+                </li>
+                <li class="contact">
+                  <img src="img/twitter.png" alt="" />
+                  <a
+                    class="contact__el contact__el-4"
+                    href="https://twitter.com/czltv"
+                    rel="noopener"
+                    target="_blank"
+                    >Check my Tweets</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="contacs__form-wrapper">
+            <h2 class="header-2 header-2-contacts">Or let's chat</h2>
+            <form
+              class="contacts__form"
+              rel="noopener"
+              target="_blank"
+              action="https://formsubmit.co/zlatovcristina@gmail.com"
+              method="POST"
+            >
+              <div class="form__sender-info">
+                <input
+                  class="form__element form_fullname"
+                  type="text"
+                  name="name"
+                  placeholder="Your Full Name"
+                  required
+                />
+                <input
+                  class="form__element form__email"
+                  type="email"
+                  name="email"
+                  placeholder="Your Email Address"
+                  required
+                />
+              </div>
+              <div class="form__m-b">
+                <label for="message" class="sr-only">Send me an email</label>
+                <textarea
+                  class="form__element form__message"
+                  id="message"
+                  placeholder="Your message"
+                  name="message"
+                  rows="10"
+                  cols="30"
+                  required
+                ></textarea>
+                <button class="form__element form__btn" type="submit">
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </footer>

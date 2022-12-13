@@ -106,7 +106,7 @@
     flex-basis: 70%;
   }
 
-  .contacts--links {
+  .contacts__links {
     display: flex;
     flex: wrap;
     gap: 1rem;
@@ -114,11 +114,24 @@
     > * {
       flex-basis: 100%;
     }
+  }
 
-    .contact {
-      display: flex;
-      flex-direction: column-reverse;
-      gap: 2rem;
-    }
+  .contact {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .form__sender-info {
+    flex-wrap: wrap;
+    max-width: 75%;
+  }
+
+  .form__m-b {
+    flex-direction: row;
+  }
+
+  .form__message {
+    flex-basis: 75%;
   }
 }
