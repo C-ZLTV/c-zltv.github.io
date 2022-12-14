@@ -376,6 +376,7 @@ ul {
 }
 .form__sender-info > * {
   flex-grow: 1;
+  flex-shrink: 2;
 }
 
 .form__m-b {
@@ -401,7 +402,7 @@ ul {
   border: 2px solid #fe51b0;
 }
 
-@media (max-width: 709px) {
+@media (max-width: 759px) {
   .primary-navigation {
     background-color: hsla(0deg, 0%, 10%, 0.9);
     -webkit-backdrop-filter: blur(0.1rem);
@@ -439,7 +440,7 @@ ul {
     background-repeat: no-repeat;
   }
 }
-@media (min-width: 710px) {
+@media (min-width: 760px) {
   .primary-header-wrapper .header-flex {
     align-items: center;
   }
@@ -459,7 +460,7 @@ ul {
   .skills,
 .exp,
 .contacs {
-    padding: 7rem 0 7rem 0;
+    padding: 6rem 0 6rem 0;
   }
   .story,
 .vision {
@@ -489,18 +490,30 @@ ul {
 .hard-layout {
     flex-basis: 70%;
   }
+  .contacts__links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .header-2-contacts {
+    text-align: left;
+    flex-basis: 25%;
+  }
   .contacts__links {
     display: flex;
-    flex: wrap;
-    gap: 1rem;
-  }
-  .contacts__links > * {
-    flex-basis: 100%;
+    gap: clamp(0.5rem, 6vw, 10rem);
   }
   .contact {
     display: flex;
     flex-direction: column-reverse;
     gap: 2rem;
+  }
+  .contacs__form-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacs__form-wrapper > * {
+    flex-grow: 1;
   }
   .form__sender-info {
     flex-wrap: wrap;
