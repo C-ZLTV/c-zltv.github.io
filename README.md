@@ -24,7 +24,7 @@ Build a fully responsive personal website to showcase personal coding skills acq
 
 ### Links
 
-- URL: [Live Website URL](https://c-zltv.github.io/html-css-website/)
+- URL: [Live Website URL](https://c-zltv.github.io/)
 
 ## My process
 
