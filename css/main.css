@@ -516,7 +516,6 @@ ul {
     flex-grow: 1;
   }
   .form__sender-info {
-    flex-wrap: wrap;
     max-width: 75%;
   }
   .form__m-b {
