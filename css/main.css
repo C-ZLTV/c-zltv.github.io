@@ -167,6 +167,7 @@ ul {
   color: #323232;
   text-transform: uppercase;
   align-self: flex-end;
+  transition: background-color 0.2s, color 0.2s;
   cursor: pointer;
 }
 
@@ -243,7 +244,8 @@ ul {
 .contacs {
   background-color: #323232;
   color: #eeeeee;
-  padding: 2rem 0;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 .snv .container,
 .skills .container,
@@ -451,11 +453,13 @@ ul {
   .hero-content {
     max-width: 75%;
   }
-  .snv,
-.skills,
+  .snv {
+    padding: 1rem 0 5rem 0;
+  }
+  .skills,
 .exp,
 .contacs {
-    padding: 1.5rem 0 10rem 0;
+    padding: 7rem 0 7rem 0;
   }
   .story,
 .vision {
