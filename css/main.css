@@ -265,19 +265,21 @@ ul {
   margin-bottom: 0.75rem;
 }
 
-.skills .soft-text,
-.skills .hard-text {
+.soft-text,
+.hard-text {
   padding-bottom: 2rem;
 }
-.skills .soft-wrapper {
+
+.soft-wrapper {
   margin-bottom: 3rem;
 }
-.skills .soft-layout {
+
+.soft-layout {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
-.skills .soft-layout > * {
+.soft-layout > * {
   flex: 1 1 47%;
 }
 
@@ -286,12 +288,14 @@ ul {
   font-size: 1.25rem;
   color: #f7f7f7;
 }
-.exp .exp1-wrapper {
+
+.exp1-wrapper {
   padding: 3rem 0;
   border-top: 2px solid #e2c1f3;
   border-bottom: 1px solid #f5e45f;
 }
-.exp .exp2-wrapper {
+
+.exp2-wrapper {
   padding: 3rem 0;
   border-top: 1px solid #00c69e;
   border-bottom: 2px solid #fe51b0;

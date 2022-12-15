@@ -27,42 +27,39 @@
   }
 }
 
-.skills {
-  .soft-text,
-  .hard-text {
-    padding-bottom: 2rem;
-  }
+.soft-text,
+.hard-text {
+  padding-bottom: 2rem;
+}
 
-  .soft-wrapper {
-    margin-bottom: 3rem;
-  }
-  .soft-layout {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+.soft-wrapper {
+  margin-bottom: 3rem;
+}
 
-    > * {
-      flex: 1 1 47%;
-    }
+.soft-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  > * {
+    flex: 1 1 47%;
   }
 }
 
-.exp {
-  h3 {
-    margin-bottom: 2rem;
-    font-size: 1.25rem;
-    color: $clr-secondary-accent;
-  }
+.exp h3 {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  color: $clr-secondary-accent;
+}
 
-  .exp1-wrapper {
-    padding: 3rem 0;
-    border-top: 2px solid $clr-accent-lilac;
-    border-bottom: 1px solid $clr-accent-yellow;
-  }
+.exp1-wrapper {
+  padding: 3rem 0;
+  border-top: 2px solid $clr-accent-lilac;
+  border-bottom: 1px solid $clr-accent-yellow;
+}
 
-  .exp2-wrapper {
-    padding: 3rem 0;
-    border-top: 1px solid $clr-accent-green;
-    border-bottom: 2px solid $clr-accent-pink;
-  }
+.exp2-wrapper {
+  padding: 3rem 0;
+  border-top: 1px solid $clr-accent-green;
+  border-bottom: 2px solid $clr-accent-pink;
 }
